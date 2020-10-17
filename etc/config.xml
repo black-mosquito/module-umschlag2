@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <umschlag2>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Blackmosquito\Umschlag2\Model\Carrier\Umschlag2</model>
+                <name>BM Umschlag gross</name>
+                <price>7.50</price>
+                <title>BM-Umschlag gross</title>
+                <type>I</type>
+                <specificerrmsg>---</specificerrmsg>
+            </umschlag2>
+        </carriers>
+    </default>
+</config>
